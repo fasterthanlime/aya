@@ -1256,7 +1256,7 @@ mod tests {
         assert_matches!(
             obj.parse_section(fake_section(
                 BpfSectionKind::Program,
-                "socket_filter/foo",
+                "socket/foo",
                 bytes_of(&fake_ins())
             )),
             Ok(())
